@@ -1,0 +1,28 @@
+{
+	"button_list" : {
+		"按钮1" : {
+			"value" : "1111",
+			"locator_strategy" : "xpath"
+		},
+		"按钮2" : {
+			"value" : "1111",
+			"locator_strategy" : "xpath"
+		}
+	},
+	"case_list" : [
+		{
+			"case_id" : 1,
+			"case_name" : "xx测试",
+			"case_description" : "xx描述",
+			"case_page" : "xx页面",
+			"case_steps" : [ "按钮1", "按钮2" ]
+		},
+		{
+			"case_id" : 1,
+			"case_name" : "xx测试",
+			"case_description" : "xx描述",
+			"case_page" : "xx页面",
+			"case_steps" : [ "按钮2", "按钮1" ]
+		}
+	]
+}
