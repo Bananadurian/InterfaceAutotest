@@ -128,7 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# vscode111
+# vscode222
 .vscode
 pytest_project.code-workspace
 appium_project.code-workspace
