@@ -1,0 +1,5 @@
+allure_python_commons==2.10.0
+jsonpath==0.82
+pytest==7.1.3
+PyYAML==6.0
+requests==2.22.0

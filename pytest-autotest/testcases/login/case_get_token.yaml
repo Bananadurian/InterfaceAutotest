@@ -1,0 +1,26 @@
+-
+  report_info:  # 报告信息
+    epic: wechat项目
+    feature: 登录
+    # story: 分组名称xx
+    tags: 
+      - 登录  
+  name: $csv{name}
+  des: $csv{des}
+  host: ${get_host(wechat)}
+  parameters: 
+    name-des-method-grant_type-appid-secret: /data/login_data.csv  
+  request:
+    url_path: /cgi-bin/token
+    method: $csv{method}
+    params: 
+      grant_type: $csv{grant_type}
+      appid: $csv{appid}
+      secret: $csv{secret}
+  extract:
+    access_token: '"access_token":"(.*?)"'
+    expires_in: expires_in
+  validata:
+    - equals: {"status_code": 200}
+    - equals: {"expires_in": 7200}
+    - contains: access_token

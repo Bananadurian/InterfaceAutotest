@@ -1,0 +1,8 @@
+[32mINFO    [0m test.log:log_util.py:58 >>>>>>>>>> 请求开始 >>>>>>>>>>>
+[32mINFO    [0m test.log:log_util.py:58 用例名称:post获取
+[32mINFO    [0m test.log:log_util.py:58 url:https://api.weixin.qq.com/cgi-bin/token
+[32mINFO    [0m test.log:log_util.py:58 method: post
+[32mINFO    [0m test.log:log_util.py:58 其它请求参数: {'headers': None, 'files': None, 'params': {'grant_type': 'client_credential', 'appid': 'wxd3bf30272b1def4f', 'secret': '3df1dde2526a65de86c5e18db3f2d421'}}
+[32mINFO    [0m test.log:log_util.py:58 >>>>>>>>>> 请求结束 >>>>>>>>>>>
+[32mINFO    [0m test.log:log_util.py:58 extract.yaml通过正则写入access_token: 61_bys3v7dtXyavS6WWfK4IQRFvuq4wT0jrfmW0REOKiqtd92N_naC9a9iB2ZTohsjCjceOsnQ20icCbxsABhBBLxHF0PRDmaKiLQqQKApwTEwZdSJaZu6QEdT7HHA88FUeSy4FRJfQQPejsg-fHSHfAGAOZO
+[32mINFO    [0m test.log:log_util.py:58 extract.yaml通过json写入expires_in: 61_bys3v7dtXyavS6WWfK4IQRFvuq4wT0jrfmW0REOKiqtd92N_naC9a9iB2ZTohsjCjceOsnQ20icCbxsABhBBLxHF0PRDmaKiLQqQKApwTEwZdSJaZu6QEdT7HHA88FUeSy4FRJfQQPejsg-fHSHfAGAOZO

@@ -1,0 +1,7 @@
+2022-09-28 20:40:36,850 - INFO - log_util.py[:58] - D:\Code\python_learn_code\video_learn_code\pytest-autotest\common\log_util.py - write_log - >>>>>>>>>> 开始请求 >>>>>>>>>>>
+2022-09-28 20:40:36,852 - INFO - log_util.py[:58] - D:\Code\python_learn_code\video_learn_code\pytest-autotest\common\log_util.py - write_log - url:https://api.weixin.qq.com/cgi-bin/tags/update
+2022-09-28 20:40:36,854 - INFO - log_util.py[:58] - D:\Code\python_learn_code\video_learn_code\pytest-autotest\common\log_util.py - write_log - method: post
+2022-09-28 20:40:36,856 - INFO - log_util.py[:58] - D:\Code\python_learn_code\video_learn_code\pytest-autotest\common\log_util.py - write_log - 其它请求参数: {'headers': None, 'files': None, 'params': {'access_token': '61_UgE0xnvUjOoddoZYnTmc1SYvur-NeDnV_qlMV3ZIOp6CakcwKz5CkmQHO6Bxted_v3ikbUQ6OHaQlMfxiyzBq8ESIalcNXX9NbfHcKF2L3TfG1PvW328NgbTfsFxzA2xxficd0zjKyGdQ0JINXGaACAJTC'}, 'data': b'{"tag": {"id": 102, "name": "\xe6\x96\xb0\xe7\x9a\x84\xe5\xb9\xbf\xe4\xb8\x9c146"}}'}
+2022-09-28 20:40:36,858 - INFO - log_util.py[:58] - D:\Code\python_learn_code\video_learn_code\pytest-autotest\common\log_util.py - write_log - >>>>>>>>>> 开始结束 >>>>>>>>>>>
+2022-09-28 20:40:36,862 - ERROR - log_util.py[:58] - D:\Code\python_learn_code\video_learn_code\pytest-autotest\common\log_util.py - write_log - E0002: errcode断言失败, 预期结果:1, 实际结果: [42001] 中不存在对应的值
+

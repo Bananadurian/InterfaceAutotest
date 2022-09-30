@@ -1,0 +1,6 @@
+name,des,method,grant_type,appid,secret
+正常获取token,获取token,get,client_credential,wxd3bf30272bddddd1def4f,3df1dde2526a65rwerew33de86c5e18db3f2d421
+post获取,获取token,post,client_credential,wxd322222bf30272b1def4f,3df1dd333e2526a65de86c5e18d44b3f2d421
+缺失grant_type,获取token,get,,wxd3bf30272b133def4f,3df1dde2526a65de86333c445e18db3f2d421
+缺失appid,获取token,get,client_credential,,3df1dde2533326a65de86c5e18db3f2d421
+缺失secret,获取token,get,client_credential,wxd3bf3330272b1def4f,""

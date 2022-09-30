@@ -1,0 +1,37 @@
+# -
+#   name: 修改标签
+#   des: xx
+#   host: WeChat
+#   request:
+#     url_path: /cgi-bin/tags/update
+#     method: post
+#     params: 
+#       access_token: ${get_extract_data(access_token)}
+#     data: {"tag": {"id": 102,"name": "新的广东${ramdom_num(122, 200)}"}}
+#   validata:
+#     - equals: {"status_code": 200}
+#     - equals: {"errcode": 1}
+#     - contains: errmsg    
+-
+  report_info:  # 报告信息
+    epic: wechat项目
+    feature: 标签管理
+    # story: 分组名称xx
+    tags: 
+      - 标签1
+      - 标签2
+  name: $csv{name}
+  des: $csv{des}
+  host: ${get_host(wechat)}
+  parameters: 
+    name-des-method: /data/temp.csv
+  request:
+    url_path: /cgi-bin/tags/update
+    method: $csv{method}
+    params: 
+      access_token: ${get_extract_data(access_token)}
+    data: {"tag": {"id": 102,"name": "新的广东${ramdom_num(122, 200)}"}}
+  validata:
+    - equals: {"status_code": 200}
+    - equals: {"errcode": 0}
+    - contains: errmsg

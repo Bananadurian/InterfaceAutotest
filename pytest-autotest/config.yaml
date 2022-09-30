@@ -1,0 +1,10 @@
+# host域名或ip地址
+host:
+  baidu: https://www.baidu.com
+  wechat: https://api.weixin.qq.com
+  bilibili: https://i0.hdslb.com
+
+log:
+  name: log
+  level: info
+  fomat: "%(asctime)s - %(levelname)s - %(filename)s[:%(lineno)d] - %(pathname)s - %(funcName)s - %(message)s"
