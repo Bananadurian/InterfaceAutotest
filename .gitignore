@@ -132,3 +132,5 @@ dmypy.json
 .vscode
 pytest_project.code-workspace
 appium_project.code-workspace
+# 忽略report文件夹
+report/
