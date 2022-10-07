@@ -1,0 +1,67 @@
+2022-10-07 16:20:08,933 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求开始 >>>>>>>>>>>
+2022-10-07 16:20:09,108 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 用例名称:正常获取token
+2022-10-07 16:20:09,113 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - url:https://api.weixin.qq.com/cgi-bin/token
+2022-10-07 16:20:09,117 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - method: get
+2022-10-07 16:20:09,123 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 其它请求参数: {'headers': None, 'files': None, 'params': {'grant_type': 'client_credential', 'appid': 'wxd3bf30272bddddd1def4f', 'secret': '3df1dde2526a65rwerew33de86c5e18db3f2d421'}}
+2022-10-07 16:20:09,129 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求结束 >>>>>>>>>>>
+2022-10-07 16:20:09,139 - ERROR - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - E0003: expires_in断言失败, 响应结果中不存在 expires_inE0004: access_token断言失败, 响应结果中不存在 access_token
+2022-10-07 16:20:09,347 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求开始 >>>>>>>>>>>
+2022-10-07 16:20:09,380 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 用例名称:post获取
+2022-10-07 16:20:09,385 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - url:https://api.weixin.qq.com/cgi-bin/token
+2022-10-07 16:20:09,391 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - method: post
+2022-10-07 16:20:09,395 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 其它请求参数: {'headers': None, 'files': None, 'params': {'grant_type': 'client_credential', 'appid': 'wxd322222bf30272b1def4f', 'secret': '3df1dd333e2526a65de86c5e18d44b3f2d421'}}
+2022-10-07 16:20:09,400 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求结束 >>>>>>>>>>>
+2022-10-07 16:20:09,427 - ERROR - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - E0003: expires_in断言失败, 响应结果中不存在 expires_inE0004: access_token断言失败, 响应结果中不存在 access_token
+2022-10-07 16:20:09,459 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求开始 >>>>>>>>>>>
+2022-10-07 16:20:09,499 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 用例名称:缺失grant_type
+2022-10-07 16:20:09,504 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - url:https://api.weixin.qq.com/cgi-bin/token
+2022-10-07 16:20:09,509 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - method: get
+2022-10-07 16:20:09,514 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 其它请求参数: {'headers': None, 'files': None, 'params': {'grant_type': '', 'appid': 'wxd3bf30272b133def4f', 'secret': '3df1dde2526a65de86333c445e18db3f2d421'}}
+2022-10-07 16:20:09,519 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求结束 >>>>>>>>>>>
+2022-10-07 16:20:09,527 - ERROR - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - E0003: expires_in断言失败, 响应结果中不存在 expires_inE0004: access_token断言失败, 响应结果中不存在 access_token
+2022-10-07 16:20:09,582 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求开始 >>>>>>>>>>>
+2022-10-07 16:20:09,614 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 用例名称:缺失appid
+2022-10-07 16:20:09,619 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - url:https://api.weixin.qq.com/cgi-bin/token
+2022-10-07 16:20:09,624 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - method: get
+2022-10-07 16:20:09,629 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 其它请求参数: {'headers': None, 'files': None, 'params': {'grant_type': 'client_credential', 'appid': '', 'secret': '3df1dde2533326a65de86c5e18db3f2d421'}}
+2022-10-07 16:20:09,634 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求结束 >>>>>>>>>>>
+2022-10-07 16:20:09,641 - ERROR - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - E0003: expires_in断言失败, 响应结果中不存在 expires_inE0004: access_token断言失败, 响应结果中不存在 access_token
+2022-10-07 16:20:09,672 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求开始 >>>>>>>>>>>
+2022-10-07 16:20:09,723 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 用例名称:缺失secret
+2022-10-07 16:20:09,729 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - url:https://api.weixin.qq.com/cgi-bin/token
+2022-10-07 16:20:09,734 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - method: get
+2022-10-07 16:20:09,739 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 其它请求参数: {'headers': None, 'files': None, 'params': {'grant_type': 'client_credential', 'appid': 'wxd3bf3330272b1def4f', 'secret': ''}}
+2022-10-07 16:20:09,744 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求结束 >>>>>>>>>>>
+2022-10-07 16:20:09,751 - ERROR - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - E0003: expires_in断言失败, 响应结果中不存在 expires_inE0004: access_token断言失败, 响应结果中不存在 access_token
+2022-10-07 16:20:09,789 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求开始 >>>>>>>>>>>
+2022-10-07 16:20:09,875 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 用例名称:我叫xx
+2022-10-07 16:20:09,883 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - url:https://api.weixin.qq.com/cgi-bin/tags/update
+2022-10-07 16:20:09,888 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - method: post
+2022-10-07 16:20:09,893 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 其它请求参数: {'headers': None, 'files': None, 'params': {'access_token': '61_bys3v7dtXyavS6WWfK4IQRFvuq4wT0jrfmW0REOKiqtd92N_naC9a9iB2ZTohsjCjceOsnQ20icCbxsABhBBLxHF0PRDmaKiLQqQKApwTEwZdSJaZu6QEdT7HHA88FUeSy4FRJfQQPejsg-fHSHfAGAOZO'}, 'data': '{"tag": {"id": 102, "name": "新的广东189"}}'}
+2022-10-07 16:20:09,897 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求结束 >>>>>>>>>>>
+2022-10-07 16:20:09,906 - ERROR - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - E0002: errcode断言失败, 预期结果:0, 实际结果: 列表[42001] 中不存在 0
+
+2022-10-07 16:20:09,959 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求开始 >>>>>>>>>>>
+2022-10-07 16:20:10,053 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 用例名称:我叫dd
+2022-10-07 16:20:10,058 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - url:https://api.weixin.qq.com/cgi-bin/tags/update
+2022-10-07 16:20:10,063 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - method: post
+2022-10-07 16:20:10,068 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 其它请求参数: {'headers': None, 'files': None, 'params': {'access_token': '61_bys3v7dtXyavS6WWfK4IQRFvuq4wT0jrfmW0REOKiqtd92N_naC9a9iB2ZTohsjCjceOsnQ20icCbxsABhBBLxHF0PRDmaKiLQqQKApwTEwZdSJaZu6QEdT7HHA88FUeSy4FRJfQQPejsg-fHSHfAGAOZO'}, 'data': '{"tag": {"id": 102, "name": "新的广东131"}}'}
+2022-10-07 16:20:10,072 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求结束 >>>>>>>>>>>
+2022-10-07 16:20:10,080 - ERROR - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - E0002: errcode断言失败, 预期结果:0, 实际结果: 列表[42001] 中不存在 0
+
+2022-10-07 16:20:10,124 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求开始 >>>>>>>>>>>
+2022-10-07 16:20:10,183 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 用例名称:我叫cc
+2022-10-07 16:20:10,188 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - url:https://api.weixin.qq.com/cgi-bin/tags/update
+2022-10-07 16:20:10,193 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - method: post
+2022-10-07 16:20:10,198 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 其它请求参数: {'headers': None, 'files': None, 'params': {'access_token': '61_bys3v7dtXyavS6WWfK4IQRFvuq4wT0jrfmW0REOKiqtd92N_naC9a9iB2ZTohsjCjceOsnQ20icCbxsABhBBLxHF0PRDmaKiLQqQKApwTEwZdSJaZu6QEdT7HHA88FUeSy4FRJfQQPejsg-fHSHfAGAOZO'}, 'data': '{"tag": {"id": 102, "name": "新的广东146"}}'}
+2022-10-07 16:20:10,203 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求结束 >>>>>>>>>>>
+2022-10-07 16:20:10,211 - ERROR - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - E0002: errcode断言失败, 预期结果:0, 实际结果: 列表[42001] 中不存在 0
+
+2022-10-07 16:20:10,247 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求开始 >>>>>>>>>>>
+2022-10-07 16:20:10,335 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 用例名称:我叫bb
+2022-10-07 16:20:10,340 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - url:https://api.weixin.qq.com/cgi-bin/tags/update
+2022-10-07 16:20:10,345 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - method: post
+2022-10-07 16:20:10,350 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - 其它请求参数: {'headers': None, 'files': None, 'params': {'access_token': '61_bys3v7dtXyavS6WWfK4IQRFvuq4wT0jrfmW0REOKiqtd92N_naC9a9iB2ZTohsjCjceOsnQ20icCbxsABhBBLxHF0PRDmaKiLQqQKApwTEwZdSJaZu6QEdT7HHA88FUeSy4FRJfQQPejsg-fHSHfAGAOZO'}, 'data': '{"tag": {"id": 102, "name": "新的广东169"}}'}
+2022-10-07 16:20:10,354 - INFO - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - >>>>>>>>>> 请求结束 >>>>>>>>>>>
+2022-10-07 16:20:10,362 - ERROR - log_util.py[:58] - D:\GitData\InterfaceAutotest\common\log_util.py - write_log - E0002: errcode断言失败, 预期结果:0, 实际结果: 列表[42001] 中不存在 0
+
