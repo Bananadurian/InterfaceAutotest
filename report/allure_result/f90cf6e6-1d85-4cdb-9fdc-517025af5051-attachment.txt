@@ -1,7 +1,0 @@
-[32mINFO    [0m test.log:log_util.py:58 >>>>>>>>>> 请求开始 >>>>>>>>>>>
-[32mINFO    [0m test.log:log_util.py:58 用例名称:缺失secret
-[32mINFO    [0m test.log:log_util.py:58 url:https://api.weixin.qq.com/cgi-bin/token
-[32mINFO    [0m test.log:log_util.py:58 method: get
-[32mINFO    [0m test.log:log_util.py:58 其它请求参数: {'headers': None, 'files': None, 'params': {'grant_type': 'client_credential', 'appid': 'wxd3bf3330272b1def4f', 'secret': ''}}
-[32mINFO    [0m test.log:log_util.py:58 >>>>>>>>>> 请求结束 >>>>>>>>>>>
-[1m[31mERROR   [0m test.log:log_util.py:58 E0003: expires_in断言失败, 响应结果中不存在 expires_inE0004: access_token断言失败, 响应结果中不存在 access_token
